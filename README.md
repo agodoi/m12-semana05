@@ -64,7 +64,7 @@ Cada uma dessas metodologias fornece orientações específicas para ajudar as o
 - Nuvem como habilitadora da inteligência artificial.
 - Papel do engenheiro de software na jornada para a nuvem.
 
-#### (1.2) Nuvem como habilitadora da inteligência artificial
+#### (1.2) Nuvem como habilitadora da IA
 
 Como já é sabido, a nuvem oferece recursos computacionais flexíveis e escaláveis, permitindo que organizações treinem e implementem modelos de IA de forma eficiente e econômica. Os benefícios da nuvem para a IA:
 
@@ -73,22 +73,18 @@ Como já é sabido, a nuvem oferece recursos computacionais flexíveis e escalá
 - Integração simplificada: facilidade de integrar modelos de IA em aplicações existentes por meio de APIs e serviços gerenciados.
 - Custos otimizados: modelo de pagamento conforme o uso, permitindo que organizações paguem apenas pelos recursos que utilizam.
 
-A integração da IA na estratégia de adoção da nuvem é destacada no CAF, incentivando as organizações a considerarem a IA como um componente estratégico para impulsionar a inovação e a eficiência operacional .
+* A integração da IA na estratégia de adoção da nuvem é destacada no CAF, incentivando as organizações a considerarem a IA como um componente estratégico para impulsionar a inovação e a eficiência operacional .
 
-3. Papel do engenheiro de software na jornada para a nuvem
-O engenheiro de software desempenha um papel crucial na jornada de adoção da nuvem, sendo responsável por projetar, desenvolver e manter aplicações que aproveitam os benefícios da nuvem e da IA. Suas responsabilidades incluem:
+#### (1.3) Papel do Engenheiro(a) de Software
 
-Desenvolvimento de aplicações nativas da nuvem: Criar soluções que utilizam arquiteturas modernas, como microsserviços e containers, para aproveitar a escalabilidade e resiliência da nuvem.
+O/A engenheiro(a) de software desempenha um papel crucial na jornada de adoção da nuvem, sendo responsável por projetar, desenvolver e manter aplicações que aproveitam os benefícios da nuvem e da IA. Suas responsabilidades incluem:
 
-Integração de serviços de IA: Incorporar funcionalidades de IA nas aplicações, utilizando serviços de nuvem para tarefas como análise de dados, automação e personalização.
+- Desenvolvimento de aplicações nativas da nuvem: criar soluções que utilizam arquiteturas modernas, como microsserviços e containers, para aproveitar a escalabilidade e resiliência da nuvem.
+- Integração de serviços de IA: incorporar funcionalidades de IA nas aplicações, utilizando serviços de nuvem para tarefas como análise de dados, automação e personalização.
+- Automatização de processos: implementar pipelines de integração e entrega contínuas (CI/CD) para acelerar o desenvolvimento e a implantação de aplicações.
+- Garantia de segurança e conformidade: assegurar que as aplicações estejam em conformidade com padrões de segurança e regulamentações, protegendo dados sensíveis e garantindo a privacidade dos usuários.
+- Colaboração interdisciplinar: trabalhar em conjunto com equipes de operações, segurança, dados e negócios para alinhar as soluções tecnológicas com os objetivos organizacionais.
 
-Automatização de processos: Implementar pipelines de integração e entrega contínuas (CI/CD) para acelerar o desenvolvimento e a implantação de aplicações.
-
-Garantia de segurança e conformidade: Assegurar que as aplicações estejam em conformidade com padrões de segurança e regulamentações, protegendo dados sensíveis e garantindo a privacidade dos usuários.
-
-Colaboração interdisciplinar: Trabalhar em conjunto com equipes de operações, segurança, dados e negócios para alinhar as soluções tecnológicas com os objetivos organizacionais.
-
-A atuação do engenheiro de software é essencial para transformar as diretrizes estratégicas do CAF em soluções técnicas concretas, garantindo que a adoção da nuvem e da IA seja bem-sucedida e gere valor para a organização.
 
 #### 2. Fase de Estratégia (25 min)
 - Motivadores de negócio (ex: automação, IA preditiva, escalabilidade).
