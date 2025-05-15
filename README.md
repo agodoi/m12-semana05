@@ -137,7 +137,7 @@ O que a ferramenta ajuda a descobrir:
 - Quais áreas precisam de atenção (cultura, tecnologia, processos).
 - Sugestões personalizadas com base nas respostas.
 
-✍️ **Aplicação didática em sala:**
+✍️ **Aplicação prática em sala:**
 
 Formem grupos de 4 pessoas e assumam o papel de consultores de uma empresa e preencham o questionário da ferramenta da Microsoft. Você pode adotar uma empresa em que algum integrante do seu grupo já trabalhou. Ou adotar esse cenário: **uma startup está crescendo rapidamente e precisa escalar sua plataforma de atendimento digital, que hoje roda em um servidor local. Pergunta: quais seriam os motivadores estratégicos dessa empresa? Qual jornada ela deve adotar primeiro (migração ou inovação)?**
 
