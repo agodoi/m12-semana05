@@ -96,6 +96,25 @@ Como explorar o Cloud Adoption Framework da Microsoft com foco na aplicação de
 
 ---
 
+### Tabela Comparativa com Azure
+
+A tabela abaixo tem-se um mapeamento direto entre as etapas oficiais do Cloud Adoption Framework (CAF) da Microsoft e os blocos/tópicos que acabamos de ver. 
+
+A ideia dos blocos/tópicos foi pedagógica, ou seja, adaptar a jornada CAF para caber numa estrutura didática e lógica. Contudo é importante ver como está o CAF do ponto de vista do mercado:
+
+| **Etapa Oficial do CAF**                                                                                                                          | **Tópico do Roteiro da Aula**                                        | **Observação Didática**                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| [Introdução ao Cloud Adoption Framework](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/get-started/)                           | Bloco 1 – Introdução Geral                                           | Serve como abertura da aula: apresenta o CAF, seus pilares e importância na adoção de nuvem.              |
+| [Desenvolver uma estratégia de adoção da nuvem](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/strategy/)                       | Bloco 1 – Fase de Estratégia                                         | Inclui definição de motivadores, justificativa de negócios e plano de alto nível de adoção.               |
+| [Racionalizar a propriedade digital](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/digital-estate/rationalize)                 | Bloco 1 – Fase de Planejamento                                       | Trata da identificação e categorização dos ativos digitais para migração ou modernização.                 |
+| [Entender os modelos operacionais de nuvem](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/operating-model/)                    | Bloco 3 – Organização e MLOps                                        | Introduz a estrutura organizacional, responsabilidades e modelos operacionais (DevOps, MLOps).            |
+| [Visão geral da migração](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/migrate/)                                              | Bloco 2 – Fase Adoção (Adopt)                                        | Trata das abordagens de migração: Rehost, Refactor, Rearchitect, etc.                                     |
+| [Preparar suas operações de nuvem do Azure](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/manage/ready)                        | Bloco 2 – Fase Pronto (Ready)                                        | Foca na criação das zonas de destino (Landing Zones) e preparação técnica da infraestrutura.              |
+| [Visão geral do governo](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/govern/)                                                | Bloco 3 – Governança com IA                                          | Aborda definição de políticas, conformidade e controle de riscos, incluindo uso ético da IA.              |
+| [Criar um consenso sobre o valor comercial da inovação](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/innovate/business-value) | Bloco 4 – Fundamentos da IA na Nuvem + Proposta de Soluções CAF + IA | Foco em como a inovação com IA pode gerar valor de negócio, integrando CAF e serviços cognitivos.         |
+| [Visão geral do Secure](https://learn.microsoft.com/pt-br/azure/cloud-adoption-framework/secure/overview)                                         | Bloco 3 – Segurança                                                  | Explora os princípios de segurança da nuvem e da IA: Zero Trust, privacidade, e uso de ferramentas Azure. |
+
+
 ## 🧰 Ferramentas e Recursos
 
 - [Cloud Adoption Framework (CAF) – Microsoft](https://azure.microsoft.com/pt-br/solutions/azure-essentials/cloud-adoption-framework/)
