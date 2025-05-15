@@ -4,92 +4,116 @@
 
 # Nuvem / IA
 
-## Descrição da Aula
-Nesta aula, você aprenderá a integrar computação em nuvem e inteligência artificial para desenvolver soluções escaláveis e inteligentes. Serão explorados fundamentos, serviços de IA nas nuvens e práticas eficientes com exemplos práticos.
+## Foco da Aula
+
+Como explorar o Cloud Adoption Framework da Microsoft com foco na aplicação de soluções de IA escaláveis na nuvem?
 
 ## Objetivos de Aprendizagem
 
-* Compreender o propósito e as etapas do Cloud Adoption Framework da Microsoft.
-* Relacionar o CAF com projetos reais de migração e transformação digital.
-* Analisar ferramentas e práticas recomendadas para cada etapa da jornada na nuvem.
-* Aplicar um mini-projeto simulado usando os conceitos do CAF.
-
-## (1) Introdução ao CAF (10 min)
-
-O que é o Cloud Adoption Framework e por que ele é importante?
-Papel do engenheiro de software na jornada para a nuvem.
-Benefícios de uma abordagem estruturada.
-
-## (2) Fase de Estratégia (20 min)
-
-Motivadores de Negócio: Modernização, escalabilidade, segurança, inovação.
-Tipos de jornada: Migração vs Inovação nativa na nuvem.
-Exemplo prático: Empresa fictícia que quer migrar sistema legado para Azure.
-Ferramenta: Avaliação do Cloud Adoption Strategy.
-
-## (3) Fase de Planejamento (20 min)
-
-Inventário de ativos (aplicações, dados, infraestrutura).
-Análise de lacunas de habilidades técnicas.
-Alinhamento entre TI e áreas de negócio.
-Ferramenta: Strategic Migration Assessment and Readiness Tool (SMART).
-
-Atividade Rápida (5 min): Brainstorm – Em duplas, liste 3 motivos para uma empresa adotar a nuvem e 3 desafios comuns.
-
-## (4) Fase Pronto (Ready) – 25 min
-
-O que são Zonas de Destino (Landing Zones)?
-Principais áreas de design:
-  Identidade (Azure AD)
-  Rede (VNet, VPN, ExpressRoute)
-  Segurança (RBAC, firewalls)
-  Governança e Gerenciamento
-  Modelos prontos da Microsoft e Terraform
-💡 Demonstração (opcional): Mostrar visualmente como uma landing zone é estruturada no portal do Azure.
-
-## (5) Fase Adoção (Adopt) – 25 min
-
-Estratégias de migração:
-Rehost (“lift and shift”)
-Refactor
-Rearchitect
-Rebuild
-Replace (SaaS)
-Foco em modernização de aplicações
-Ferramentas: Azure Migrate, Database Migration Service
-📦 Mini caso de uso (5 min): Dado um sistema legado de ERP, qual estratégia de migração seria mais adequada? Discussão em grupo.
+- Compreender o propósito e as etapas do Cloud Adoption Framework.
+- Relacionar o CAF com projetos de soluções inteligentes na nuvem.
+- Conhecer serviços de IA oferecidos pela nuvem (Azure).
+- Aplicar boas práticas de escalabilidade, governança e segurança para IA na nuvem.
+- Desenvolver uma proposta de arquitetura integrada CAF + IA.
 
 
-## (6) Fase de Governança (20 min)
+## 📅 Estrutura da Aula (4h)
 
-Definindo limites e políticas.
-Estabelecendo políticas de segurança, conformidade e custo.
-Ferramentas: Azure Policy, Azure Blueprints.
-Ciclo de governança contínua.
+### 🔹 Bloco 1 – Fundamentos e Estratégia (0h00 – 1h00)
 
-## (7) Fase de Gerenciamento (Manage) – 20 min
+#### 1. Introdução Geral (10 min)
+- O que é o Cloud Adoption Framework (CAF).
+- Nuvem como habilitadora da inteligência artificial.
+- Papel do engenheiro de software na jornada para a nuvem.
 
-Monitoramento de recursos e disponibilidade (Azure Monitor).
-Logs, métricas e alarmes.
-Azure Service Health e gerenciamento de incidentes.
-Boas práticas de operação.
+#### 2. Fase de Estratégia (25 min)
+- Motivadores de negócio (ex: automação, IA preditiva, escalabilidade).
+- Jornada de migração x inovação nativa em nuvem.
+- Ferramenta: Cloud Adoption Strategy Evaluator.
 
-## (8) Segurança (Secure) – 20 min
+#### 3. Fase de Planejamento (25 min)
+- Levantamento de ativos e dados com potencial de IA.
+- Planejamento da migração de sistemas legados.
+- Análise de lacunas de habilidades e alinhamento de times.
 
-Princípios: Zero Trust, defesa em profundidade.
-Gerenciamento de identidade e acesso.
-Proteção de dados e redes.
-Ferramentas: Defender for Cloud, Sentinel.
-📌 Atividade prática (10 min): Em grupos, cada aluno escolhe uma das fases anteriores e propõe uma ferramenta Azure que auxiliaria nessa etapa, justificando a escolha.
+---
 
-## (9) Organização (5 min)
+### 🔹 Bloco 2 – Preparação, Adoção e Arquitetura (1h00 – 2h00)
 
-Estrutura de equipes para adoção da nuvem.
-Modelo de centro de excelência (Cloud Center of Excellence - CCoE).
-Papéis e responsabilidades: engenheiro de nuvem, arquiteto, DevOps, segurança.
+#### 4. Fase Pronto (Ready) (30 min)
+- Zonas de Destino (Landing Zones) para projetos de IA.
+- Design de rede, identidade, segurança e compliance.
+- Terraform e IaC para provisionamento de ambientes.
 
-## (10) Encerramento e Checkpoint Final (5 min)
+#### 5. Fase Adoção (Adopt) (30 min)
+- Estratégias de migração: Rehost, Refactor, Rearchitect, Rebuild, Replace.
+- Migração e deploy de modelos de IA.
+- Ferramentas: Azure Migrate, Azure ML, Cognitive Services.
 
-Recapitulação dos pilares do CAF.
-Roda de perguntas.
-Preparação para continuação em próxima aula (ex: criação de um plano CAF para um projeto real).
+#### 🧠 Atividade: 
+- Cenário prático com sistema de atendimento com IA.  
+- Definir zona de destino e estratégia de adoção.
+
+---
+
+### 🔹 Bloco 3 – Governança, Operações e Segurança (2h00 – 3h00)
+
+#### 6. Governança com IA (20 min)
+- Políticas de uso responsável de IA.
+- Monitoramento de custos e compliance.
+- Ferramentas: Azure Policy, Blueprints, Responsible AI.
+
+#### 7. Gerenciamento e Segurança (20 min)
+- Monitoramento de modelos em produção.
+- Logs, alertas e escalabilidade de inferência.
+- Proteção de dados sensíveis (LGPD, PII).
+- Ferramentas: Azure Monitor, Defender for Cloud, Sentinel.
+
+#### 8. Organização e MLOps (20 min)
+- Estrutura de times integrando software, dados e DevOps.
+- Integração de pipelines CI/CD e MLOps.
+- Ferramentas: GitHub Actions, Azure DevOps, Azure ML Pipelines.
+
+---
+
+### 🔹 Bloco 4 – Prática com IA na Nuvem (3h00 – 4h00)
+
+#### 9. Fundamentos da IA na Nuvem (20 min)
+- Serviços de IA: prontos (Cognitive), customizados (Azure ML), open-source (OpenAI).
+- Diferença entre IaaS, PaaS e SaaS para IA.
+
+#### 10. Demonstração Técnica (20 min)
+- API de detecção de sentimento com Azure Cognitive Services.
+- Deploy de modelo preditivo com Azure ML Studio.
+
+#### 11. Atividade em Grupo (15 min)
+- Criar uma proposta CAF + IA para um cenário fictício.
+- Definir: motivador, plano de adoção, arquitetura, governança e segurança.
+
+#### 12. Encerramento e Discussão (5 min)
+- Apresentações relâmpago dos grupos.
+- Reflexão final: impactos reais da IA na nuvem.
+
+---
+
+## 🧰 Ferramentas e Recursos
+
+- [Cloud Adoption Framework (CAF) – Microsoft](https://azure.microsoft.com/pt-br/solutions/azure-essentials/cloud-adoption-framework/)
+- [Azure Machine Learning](https://learn.microsoft.com/pt-br/azure/machine-learning/)
+- [Azure Cognitive Services](https://azure.microsoft.com/pt-br/products/cognitive-services/)
+- [Azure Monitor](https://learn.microsoft.com/pt-br/azure/azure-monitor/overview)
+- [Azure Policy](https://learn.microsoft.com/pt-br/azure/governance/policy/overview)
+
+---
+
+## 📌 Tarefas Pós-Aula (sugestão)
+
+- Criar um diagrama de arquitetura baseado em um cenário real usando o CAF.
+- Explorar e testar uma API de IA no Azure.
+- Realizar um mini planejamento CAF com foco em IA, usando o template oficial.
+
+---
+
+## 📎 Créditos
+
+Elaborado por [Seu Nome] • Curso de Engenharia de Software  
