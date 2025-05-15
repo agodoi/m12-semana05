@@ -25,50 +25,39 @@ Como explorar o Cloud Adoption Framework da Microsoft com foco na aplicação de
 
 #### (1.1) O que é o Cloud Adoption Framework (CAF)
 
-O Cloud Adoption Framework (CAF) da Microsoft é um conjunto abrangente de orientações, práticas recomendadas e ferramentas que auxiliam organizações na adoção bem-sucedida da computação em nuvem. 
-
-Há outras CAF de outras grandes empresas:
+O Cloud Adoption Framework (CAF) é um conjunto abrangente de orientações, práticas recomendadas e ferramentas que auxiliam organizações na adoção bem-sucedida da computação em nuvem. Um dos mais completos é o da Microsoft, mas há outras CAF de outras grandes empresas:
 
 🟨 AWS – AWS Cloud Adoption Framework (AWS CAF)
-Também possui um framework chamado "Cloud Adoption Framework", mas com pilares diferentes: People, Process, Technology, Business, Governance, Security.
 
-Foco mais centrado na transformação organizacional.
+- Também possui um framework chamado "Cloud Adoption Framework", mas com pilares diferentes: People, Process, Technology, Business, Governance, Security.
+- Foco mais centrado na transformação organizacional.
 
 🟥 Google Cloud – Cloud Adoption Framework (GCP CAF)
-Utiliza o mesmo nome também, mas com quatro níveis de maturidade (tático, estratégico, transformacional e disruptivo).
 
-Pilares: Learn, Lead, Scale, Secure.
+- Utiliza o mesmo nome também, mas com quatro níveis de maturidade (tático, estratégico, transformacional e disruptivo).
+- Pilares: Learn, Lead, Scale, Secure.
 
 🟦 Microsoft Azure – Cloud Adoption Framework (CAF)
-Nome oficial: Cloud Adoption Framework
 
-Estrutura detalhada em fases: Estratégia, Planejamento, Pronto, Adoção, Governança, Gerenciamento, Segurança, Inovação.
+- Nome oficial: Cloud Adoption Framework
+- Estrutura detalhada em fases: Estratégia, Planejamento, Pronto, Adoção, Governança, Gerenciamento, Segurança, Inovação.
+- Documentação pública e extensiva.
 
-Documentação pública e extensiva.
-
-
+Vamos adotar o da Microsoft.
 
 Ele oferece uma abordagem estruturada para alinhar estratégias de negócios, pessoas e tecnologia, garantindo que a transição para a nuvem seja eficaz e alinhada aos objetivos organizacionais.
 
 O CAF é dividido em várias metodologias que representam diferentes fases da jornada de adoção da nuvem:
 
-Estratégia: Definição dos motivadores de negócios e resultados esperados.
-
-Planejamento: Alinhamento de planos de adoção com os objetivos de negócios.
-
-Pronto (Ready): Preparação do ambiente de nuvem para as mudanças planejadas.
-
-Adoção (Adopt): Migração e modernização de cargas de trabalho existentes.
-
-Inovação (Innovate): Desenvolvimento de novas soluções nativas da nuvem.
-
-Governança (Govern): Estabelecimento de controles para gerenciar riscos e conformidade.
-
-Gerenciamento (Manage): Operação e monitoramento eficazes do ambiente de nuvem.
-
-Segurança (Secure): Proteção dos ativos e dados na nuvem.
-
-Organização (Organize): Alinhamento de equipes e funções para suportar a adoção da nuvem.
+- Estratégia: Definição dos motivadores de negócios e resultados esperados.
+- Planejamento: Alinhamento de planos de adoção com os objetivos de negócios.
+- Pronto (Ready): Preparação do ambiente de nuvem para as mudanças planejadas.
+- Adoção (Adopt): Migração e modernização de cargas de trabalho existentes.
+- Inovação (Innovate): Desenvolvimento de novas soluções nativas da nuvem.
+- Governança (Govern): Estabelecimento de controles para gerenciar riscos e conformidade.
+- Gerenciamento (Manage): Operação e monitoramento eficazes do ambiente de nuvem.
+- Segurança (Secure): Proteção dos ativos e dados na nuvem.
+- Organização (Organize): Alinhamento de equipes e funções para suportar a adoção da nuvem.
 
 Cada uma dessas metodologias fornece orientações específicas para ajudar as organizações a superarem desafios comuns durante a adoção da nuvem .
 - O que é o Cloud Adoption Framework (CAF).
