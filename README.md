@@ -64,6 +64,32 @@ Cada uma dessas metodologias fornece orientações específicas para ajudar as o
 - Nuvem como habilitadora da inteligência artificial.
 - Papel do engenheiro de software na jornada para a nuvem.
 
+#### (1.2) Nuvem como habilitadora da inteligência artificial
+
+Como já é sabido, a nuvem oferece recursos computacionais flexíveis e escaláveis, permitindo que organizações treinem e implementem modelos de IA de forma eficiente e econômica. Os benefícios da nuvem para a IA:
+
+- Escalabilidade: capacidade de ajustar recursos computacionais conforme a demanda, essencial para o treinamento de modelos complexos.
+- Acesso a serviços especializados: plataformas de nuvem oferecem serviços de IA prontos para uso, como reconhecimento de imagem, processamento de linguagem natural e análise preditiva.
+- Integração simplificada: facilidade de integrar modelos de IA em aplicações existentes por meio de APIs e serviços gerenciados.
+- Custos otimizados: modelo de pagamento conforme o uso, permitindo que organizações paguem apenas pelos recursos que utilizam.
+
+A integração da IA na estratégia de adoção da nuvem é destacada no CAF, incentivando as organizações a considerarem a IA como um componente estratégico para impulsionar a inovação e a eficiência operacional .
+
+3. Papel do engenheiro de software na jornada para a nuvem
+O engenheiro de software desempenha um papel crucial na jornada de adoção da nuvem, sendo responsável por projetar, desenvolver e manter aplicações que aproveitam os benefícios da nuvem e da IA. Suas responsabilidades incluem:
+
+Desenvolvimento de aplicações nativas da nuvem: Criar soluções que utilizam arquiteturas modernas, como microsserviços e containers, para aproveitar a escalabilidade e resiliência da nuvem.
+
+Integração de serviços de IA: Incorporar funcionalidades de IA nas aplicações, utilizando serviços de nuvem para tarefas como análise de dados, automação e personalização.
+
+Automatização de processos: Implementar pipelines de integração e entrega contínuas (CI/CD) para acelerar o desenvolvimento e a implantação de aplicações.
+
+Garantia de segurança e conformidade: Assegurar que as aplicações estejam em conformidade com padrões de segurança e regulamentações, protegendo dados sensíveis e garantindo a privacidade dos usuários.
+
+Colaboração interdisciplinar: Trabalhar em conjunto com equipes de operações, segurança, dados e negócios para alinhar as soluções tecnológicas com os objetivos organizacionais.
+
+A atuação do engenheiro de software é essencial para transformar as diretrizes estratégicas do CAF em soluções técnicas concretas, garantindo que a adoção da nuvem e da IA seja bem-sucedida e gere valor para a organização.
+
 #### 2. Fase de Estratégia (25 min)
 - Motivadores de negócio (ex: automação, IA preditiva, escalabilidade).
 - Jornada de migração x inovação nativa em nuvem.
