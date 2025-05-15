@@ -49,15 +49,15 @@ Ele oferece uma abordagem estruturada para alinhar estratégias de negócios, pe
 
 O CAF é dividido em várias metodologias que representam diferentes fases da jornada de adoção da nuvem:
 
-- Estratégia: Definição dos motivadores de negócios e resultados esperados.
-- Planejamento: Alinhamento de planos de adoção com os objetivos de negócios.
-- Pronto (Ready): Preparação do ambiente de nuvem para as mudanças planejadas.
-- Adoção (Adopt): Migração e modernização de cargas de trabalho existentes.
-- Inovação (Innovate): Desenvolvimento de novas soluções nativas da nuvem.
-- Governança (Govern): Estabelecimento de controles para gerenciar riscos e conformidade.
-- Gerenciamento (Manage): Operação e monitoramento eficazes do ambiente de nuvem.
-- Segurança (Secure): Proteção dos ativos e dados na nuvem.
-- Organização (Organize): Alinhamento de equipes e funções para suportar a adoção da nuvem.
+- Estratégia: definição dos motivadores de negócios e resultados esperados.
+- Planejamento: alinhamento de planos de adoção com os objetivos de negócios.
+- Pronto (Ready): preparação do ambiente de nuvem para as mudanças planejadas.
+- Adoção (Adopt): migração e modernização de cargas de trabalho existentes.
+- Inovação (Innovate): desenvolvimento de novas soluções nativas da nuvem.
+- Governança (Govern): estabelecimento de controles para gerenciar riscos e conformidade.
+- Gerenciamento (Manage): operação e monitoramento eficazes do ambiente de nuvem.
+- Segurança (Secure): proteção dos ativos e dados na nuvem.
+- Organização (Organize): alinhamento de equipes e funções para suportar a adoção da nuvem.
 
 Cada uma dessas metodologias fornece orientações específicas para ajudar as organizações a superarem desafios comuns durante a adoção da nuvem .
 - O que é o Cloud Adoption Framework (CAF).
