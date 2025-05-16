@@ -273,10 +273,10 @@ Essa subetapa define as bases técnicas do ambiente de nuvem, garantindo seguran
 - Aplicação de políticas via Azure Policy.
 - Conformidade com LGPD, ISO 27001 (que estabele Sistema de Gestão de Segurança da Informação - SGSI), SOC2 ((System and Organization Controls 2, que são controles de segurança e conformidade), entre outras.
 - Definição de naming conventions e tags obrigatórias para rastreabilidade. Exemplo: **rg-visao-prod-brfabrica01**. Explicação:
--   rg → Tipo: Resource Group
--   visao → Projeto: Visão Computacional
--   prod → Ambiente: Produção
--   rfabrica01 → Localização física ou unidade da empresa no Brasil
+  - rg → Tipo: Resource Group
+  - visao → Projeto: Visão Computacional
+  - prod → Ambiente: Produção
+  - rfabrica01 → Localização física ou unidade da empresa no Brasil
 
 
 📌 Importante: uma boa estrutura inicial evita retrabalho e falhas de segurança graves.
