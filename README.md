@@ -47,6 +47,7 @@ Como explorar o Cloud Adoption Framework da Microsoft com foco na aplicação de
 
 **(Kahoot)**
 
+---
 
 ### Bloco 1 – Fundamentos e Estratégia
 
@@ -239,7 +240,7 @@ O CAF recomenda uma análise detalhada das habilidades técnicas, comportamentai
 
 [TEMPLATE](https://github.com/agodoi/m12-semana05/blob/main/docs/Mini_Workshop_Planejamento_CAF_IA.docx)
 
-### Kahoot
+# Kahoot
 
 ---
 
@@ -250,8 +251,6 @@ O CAF recomenda uma análise detalhada das habilidades técnicas, comportamentai
 Nesta fase, o objetivo é preparar o ambiente de nuvem com padrões técnicos sólidos. Isso inclui infraestrutura, rede, identidade, governança e segurança — os chamados pilares de uma Zona de Destino (Landing Zone).
 
 É aqui que a adoção da nuvem ganha corpo técnico e garante que qualquer solução (inclusive IA) possa rodar de forma segura, escalável e conforme as políticas da organização.
-
-
 
 #### (4.1) 🧱 Zonas de Destino (Landing Zones) para projetos de IA
 
@@ -436,6 +435,9 @@ Além dos sistemas tradicionais, muitas empresas agora também precisam implanta
 - A ferramenta ideal para apoiar cada caso?
 - Como garantir segurança, escalabilidade e monitoramento?
 
+# Kahoot
+
+---
 
 ## Bloco 3 – Governança com IA
 
