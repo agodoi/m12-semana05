@@ -1,6 +1,6 @@
-## Atendimento do Professor
+# Atendimento do Professor
 
-### Terças e quintas. Professor de horário parcial. Nesses 2 dias, podem contar comigo!
+## Terças e quintas. Professor de horário parcial. Nesses 2 dias, podem contar comigo!
 
 # Nuvem / IA
 
@@ -19,9 +19,9 @@ Como explorar o Cloud Adoption Framework da Microsoft com foco na aplicação de
 
 ## 📅 Estrutura da Aula
 
-### 🔹 Bloco 1 – Fundamentos e Estratégia
+### Bloco 1 – Fundamentos e Estratégia
 
-### 1 Introdução Geral (10 min)
+### 1. Introdução Geral (10 min)
 
 #### (1.1) O que é o Cloud Adoption Framework (CAF)
 
@@ -90,7 +90,7 @@ O/A engenheiro(a) de software desempenha um papel crucial na jornada de adoção
 
 Essa fase **define os porquês** da adoção da nuvem: quais são os objetivos do negócio, o que se espera alcançar e como a tecnologia pode ser um facilitador dessa mudança. Essa etapa é essencial para garantir que a adoção da nuvem esteja alinhada com os objetivos estratégicos da organização.
 
-#### 🧩 (2.1) Motivadores de Negócio
+#### (2.1) 🧩 Motivadores de Negócio
 
 Motivadores são os principais impulsionadores que levam uma organização a adotar a nuvem. Compreender esses motivadores permite priorizar projetos, selecionar tecnologias adequadas e demonstrar valor claro para as áreas de negócio.
 
@@ -106,7 +106,7 @@ Motivadores são os principais impulsionadores que levam uma organização a ado
 
 **💡 Dica:** cada empresa terá um ou mais motivadores dominantes, e a estratégia de nuvem deve priorizar os que têm mais impacto.
 
-#### 🔄 (2.2) Jornada de Migração x Inovação Nativa
+#### (2.2) 🔄 Jornada de Migração x Inovação Nativa
 
 A Microsoft define dois percursos distintos dentro da estratégia de adoção da nuvem:
 
@@ -125,7 +125,7 @@ A Microsoft define dois percursos distintos dentro da estratégia de adoção da
 - Desafios: Requer mais planejamento, integração e mudança cultural nas equipes.
 - 🧠 Importante: em muitos casos, as empresas começam com a migração (mais conservadora) e, ao ganharem maturidade, avançam para a inovação nativa.
 
-#### 🛠️ (2.3) Ferramenta: Cloud Adoption Strategy Evaluator]
+#### (2.3) 🛠️ Ferramenta: Cloud Adoption Strategy Evaluator
 
 A Microsoft oferece uma ferramenta interativa para avaliar o alinhamento entre estratégia de negócios e nuvem:
 
@@ -149,7 +149,7 @@ Formem grupos de 4 pessoas e assumam o papel de consultores de uma empresa e pre
 
 A fase de planejamento é responsável por transformar a estratégia de adoção da nuvem em um plano prático. Esse plano deve estar alinhado com os objetivos da organização, levar em conta os ativos digitais existentes e preparar as equipes para executar a migração e a inovação de forma segura e eficiente.
 
-#### 📦 (3.1) Levantamento de ativos e dados com potencial de IA
+#### (3.1) 📦 Levantamento de ativos e dados com potencial de IA
 
 Nesta etapa, os grupos de trabalho precisam mapear todos os ativos digitais da organização (aplicações, bancos de dados, servidores, APIs, arquivos, fluxos de dados, etc.), classificando-os quanto ao seu valor, criticidade e potencial de modernização ou uso em soluções de IA.
 
@@ -165,7 +165,7 @@ Nesta etapa, os grupos de trabalho precisam mapear todos os ativos digitais da o
 - Planejamento da migração de sistemas legados.
 - Análise de lacunas de habilidades e alinhamento de times.
 
-#### 🔄 (3.2) Planejamento da migração de sistemas legados
+#### (3.2) 🔄 Planejamento da migração de sistemas legados
 
 Depois de levantar os ativos, o próximo passo é definir quais sistemas serão migrados para a nuvem e como isso será feito. Essa decisão depende de fatores como custo, complexidade, impacto no negócio e alinhamento com os objetivos estratégicos.
 
@@ -178,8 +178,7 @@ Depois de levantar os ativos, o próximo passo é definir quais sistemas serão 
 - Replace: substituição por SaaS.
 
 
-
-#### 👥 (3.3) Análise de lacunas de habilidades e alinhamento de times
+#### (3.3) 👥 Análise de lacunas de habilidades e alinhamento de times
 
 Mesmo o melhor plano técnico pode falhar se as pessoas envolvidas não estiverem preparadas ou alinhadas com os objetivos da nuvem. 
 
@@ -215,7 +214,7 @@ O CAF recomenda uma análise detalhada das habilidades técnicas, comportamentai
 
 ---
 
-### 🔹 Bloco 2 – Preparação, Adoção e Arquitetura
+## Bloco 2 – Preparação, Adoção e Arquitetura
 
 ### 4. Fase Pronto (Ready)
 
@@ -225,7 +224,7 @@ Nesta fase, o objetivo é preparar o ambiente de nuvem com padrões técnicos s�
 
 
 
-#### 🧱 (4.1) Zonas de Destino (Landing Zones) para projetos de IA
+#### (4.1) 🧱 Zonas de Destino (Landing Zones) para projetos de IA
 
 Landing Zones são ambientes pré-configurados que servem como base para receber cargas de trabalho em nuvem. Elas já vêm com boas práticas de arquitetura, rede, identidade, governança e segurança aplicadas.
 
@@ -316,20 +315,11 @@ Imagine que sua equipe precisa preparar o ambiente para um projeto de IA que far
 - Que ferramentas usariam para provisionar isso (ex: Terraform, Bicep).
 
 
-
-
-
-
-
-
-
-
-
 ### 5. Fase Adoção (Adopt)
 
 A fase de adoção representa o momento de ação: a empresa sai do planejamento e começa efetivamente a migrar sistemas legados e implementar novas soluções na nuvem, incluindo modelos de IA. Ela exige decisões técnicas importantes que equilibram tempo, custo, risco e inovação.
 
-#### 5.1 🔁 Estratégias de Migração
+#### (5.1) 🔁 Estratégias de Migração
 
 A Microsoft define cinco estratégias principais (modelo conhecido como os "5 Rs") para modernizar sistemas existentes e movê-los para a nuvem.
 
@@ -365,7 +355,7 @@ A Microsoft define cinco estratégias principais (modelo conhecido como os "5 Rs
 - Quando usar: Quando existe no mercado uma solução confiável e mais barata.
 
 
-#### 5.2 🧠 Migração e Deploy de Modelos de IA
+#### (5.2) 🧠 Migração e Deploy de Modelos de IA
 
 Além dos sistemas tradicionais, muitas empresas agora também precisam implantar modelos de IA em produção, o que exige decisões técnicas semelhantes:
 
@@ -383,7 +373,7 @@ Além dos sistemas tradicionais, muitas empresas agora também precisam implanta
 - Desempenho: considerar aceleração com GPU, caching e balanceamento de carga.
 - 💡 Dica: IA na nuvem não é só treinar modelos, é também garantir que eles rodem bem e com confiabilidade.
 
-#### 5.3 🛠️ Ferramentas para Adoção e IA
+#### (5.3) 🛠️ Ferramentas para Adoção e IA
 
 **🚀 Azure Migrate**
 
@@ -418,11 +408,11 @@ Além dos sistemas tradicionais, muitas empresas agora também precisam implanta
 - Como garantir segurança, escalabilidade e monitoramento?
 
 
-### 🔹 Bloco 3 – Governança com IA
+## Bloco 3 – Governança com IA
 
 A governança no contexto da nuvem e da IA significa definir regras, limites e responsabilidades para garantir que as soluções desenvolvidas sejam seguras, éticas, controladas e estejam em conformidade com leis e políticas corporativas. Essa etapa é vital para proteger tanto os dados quanto a reputação da empresa.
 
-#### 6.1 🧭 Políticas de uso responsável de IA
+### 6. 🧭 Fase de Governança
 
 À medida que soluções de IA ganham poder, cresce a responsabilidade sobre seu uso. Governança com IA exige que os modelos sejam:
 
@@ -435,8 +425,7 @@ A governança no contexto da nuvem e da IA significa definir regras, limites e r
 Governança responsável define critérios transparentes e evita riscos reputacionais e jurídicos.
 
 
-
-#### 6.2💰 Monitoramento de custos e compliance
+#### (6.1)💰 Monitoramento de custos e compliance
 
 Governança também é sobre controlar o uso da nuvem, evitando desperdícios e garantindo que tudo esteja em conformidade com normas como LGPD, ISO 27001 ou SOC 2.
 
@@ -448,7 +437,7 @@ Governança também é sobre controlar o uso da nuvem, evitando desperdícios e 
 - **Exemplo real:** um time de ciência de dados treinou um modelo em GPU por dias, esquecendo de desligar a instância. A conta passou de R$ 10 mil.
 Com governança (budget + alerts + políticas de desligamento), isso seria evitado.
 
-#### 6.3 🛠️ Ferramentas de Governança no Azure
+#### (6.2) 🛠️ Ferramentas de Governança no Azure
 
 **✅ Azure Policy**
 
@@ -479,7 +468,7 @@ Ferramenta para auditar modelos de IA com foco em:
 - Log Analytics + Monitor (para rastreamento e auditoria)
 - Microsoft Purview (governança de dados)
 
-#### Atividade Prática:
+#### (6.3) Atividade Prática:
 
 Cenário: Seu grupo criou um modelo de IA que analisa prontuários médicos e sugere diagnósticos.
 
@@ -490,16 +479,16 @@ Cenário: Seu grupo criou um modelo de IA que analisa prontuários médicos e su
 
 
 
-## 7. Gerenciamento e Segurança (20 min)
+### 7. Gerenciamento e Segurança
 
 Depois que um sistema — ou modelo de IA — entra em produção na nuvem, ele precisa ser **monitorado, protegido e mantido**. Gerenciamento eficaz significa **garantir que a solução funcione bem, de forma segura, estável e conforme as normas legais**.
 
 
-### 7.1 📊 Monitoramento de modelos em produção
+#### (7.1) 📊 Monitoramento de modelos em produção
 
 Colocar um modelo de IA em produção **não é o fim do processo**, e sim o início da fase operacional. O modelo precisa ser monitorado por questões de **desempenho, acurácia, disponibilidade e custo**.
 
-#### O que deve ser monitorado:
+**O que deve ser monitorado:**
 
 - **Latência de inferência** (tempo para gerar uma resposta).
 - **Taxa de erro** (ex: 503, 500).
@@ -507,21 +496,20 @@ Colocar um modelo de IA em produção **não é o fim do processo**, e sim o in�
 - **Uso do recurso computacional** (CPU/GPU, memória).
 - **Acurácia real no mundo real** (comparar previsão vs. resultado verdadeiro).
 
-#### Exemplo real:
+**Exemplo real:**
 
 - Um modelo de IA para prever inadimplência está em produção. Com o tempo, a economia muda e os dados se tornam menos representativos.
 - Resultado: o modelo começa a errar. Sem monitoramento, isso só seria descoberto tarde demais.
 
----
 
-### 7.2 🚨 Logs, alertas e escalabilidade de inferência
+#### (7.2) 🚨 Logs, alertas e escalabilidade de inferência
 
-#### Logs e alertas:
+**Logs e alertas:**
 
 - **Logs** capturam tudo o que aconteceu: entradas, saídas, exceções, tempos de resposta.
 - **Alertas** são acionados quando um evento fora do padrão ocorre (ex: alta latência, falha no endpoint).
 
-#### Escalabilidade de inferência:
+**Escalabilidade de inferência:**
 
 - Em horários de pico, seu modelo precisa **suportar múltiplas requisições simultâneas**.
 - A escalabilidade pode ser:
@@ -529,11 +517,11 @@ Colocar um modelo de IA em produção **não é o fim do processo**, e sim o in�
   - Automática (auto-scale): Azure aumenta e reduz instâncias conforme a demanda.
 - **Exemplo:** Um app de e-commerce usa IA para recomendação em tempo real. Durante a Black Friday, o volume triplica. Com autoescalonamento e alertas bem configurados, o sistema continua rápido e estável.
 
-### 7.3 🔒 Proteção de dados sensíveis (LGPD, PII)
+#### (7.3) 🔒 Proteção de dados sensíveis (LGPD, PII)
 
 Modelos de IA muitas vezes processam dados pessoais (PII – Personally Identifiable Information), como nomes, CPF, e-mails, imagens, voz e histórico médico. A proteção desses dados é **obrigatória por lei**.
 
-#### Regras da LGPD aplicadas:
+**Regras da LGPD aplicadas:**
 
 - Consentimento claro para uso dos dados.
 - Minimização: usar apenas os dados estritamente necessários.
@@ -541,7 +529,7 @@ Modelos de IA muitas vezes processam dados pessoais (PII – Personally Identifi
 - Direito à exclusão dos dados pelo titular.
 - Segurança de armazenamento e acesso.
 
-#### Boas práticas:
+**Boas práticas:**
 
 - Criptografia de dados em trânsito e em repouso.
 - Uso de **Managed Identities** para acesso seguro entre serviços.
@@ -549,28 +537,28 @@ Modelos de IA muitas vezes processam dados pessoais (PII – Personally Identifi
 - ⚠️ **Exemplo crítico:** um chatbot com IA armazena logs de conversas contendo dados médicos. Sem anonimização e controle de acesso, isso viola a LGPD.
 
 
-### 7.4 🛠️ Ferramentas do Azure
+#### (7.4) 🛠️ Ferramentas do Azure
 
-#### 7.4.1 Azure Monitor
+**(7.4.1) Azure Monitor**
 
 **Plataforma central de monitoramento** no Azure:
 - Permite visualizar logs, criar métricas personalizadas e configurar alertas.
 - Integra com aplicações e serviços como Azure ML, App Services, Functions.
 
-#### 7.4.2 Microsoft Defender for Cloud
+**(7.4.2) Microsoft Defender for Cloud**
 
 - Detecta **ameaças, vulnerabilidades e práticas inseguras**.
 - Avalia conformidade com normas como **ISO 27001, SOC 2, LGPD**.
 - Gera recomendações automáticas de segurança para seus recursos.
 
-#### 7.4.3 Microsoft Sentinel
+**(7.4.3) Microsoft Sentinel**
 
 * SIEM (Security Information and Event Management) na nuvem.
 * Agrega logs de diversas fontes (inclusive endpoints de IA).
 * Aplica **inteligência artificial para detectar comportamentos anômalos**, como acessos suspeitos, exfiltração de dados, etc.
 
 
-## ✍️ Atividade
+#### (7.5)✍️ Atividade
 
 Cenário: seu grupo implantou um modelo de IA que detecta fraudes em transações financeiras.
 - O que deve ser monitorado nesse modelo?
@@ -579,16 +567,16 @@ Cenário: seu grupo implantou um modelo de IA que detecta fraudes em transaçõe
 - Que ferramentas do Azure vocês usariam para garantir segurança e conformidade?
 
 
-## 8. Organização e MLOps
+### 8. Organização e MLOps
 
 Desenvolver modelos de IA é apenas o começo. Para que uma solução seja efetivamente usada no mundo real, ela precisa ser mantida, monitorada, atualizada e entregue com agilidade. Para isso, usamos práticas de **MLOps (Machine Learning Operations)** — a união de **Machine Learning + DevOps** — em uma estrutura organizacional colaborativa.
 
 
-### 8.1 🧑‍🤝‍🧑 Estrutura de times integrando software, dados e DevOps
+#### (8.1) 🧑‍🤝‍🧑 Estrutura de times integrando software, dados e DevOps
 
 Projetos modernos de IA na nuvem exigem uma equipe multidisciplinar e bem organizada. Um modelo de IA precisa de:
 
-#### 🧱 Papéis principais:
+**Papéis principais:**
 
 - **Engenheiro de Software**: desenvolve a aplicação que consumirá o modelo de IA.
 - **Cientista de Dados**: coleta, limpa e modela os dados; treina e valida o modelo.
@@ -599,16 +587,16 @@ Projetos modernos de IA na nuvem exigem uma equipe multidisciplinar e bem organi
 - **Exemplo real:** um projeto de IA para prever falhas em motores de tratores, o cientista de dados treina o modelo, o engenheiro de dados coleta os dados dos sensores, e o engenheiro de software expõe a API para o app da manutenção. O DevOps automatiza tudo.
 - 💡 Dica: a colaboração entre as áreas é tão importante quanto a técnica. MLOps só funciona se os times conversam e compartilham responsabilidade.
 
-### 8.2 🔄 Integração de pipelines CI/CD e MLOps
+#### (8.2) 🔄 Integração de pipelines CI/CD e MLOps
 
 Assim como softwares modernos usam **CI/CD** para entrega contínua, **modelos de IA também precisam de automação** em todo seu ciclo de vida:
 
-#### CI/CD tradicional (DevOps):
+**CI/CD tradicional (DevOps):**
 
 - **CI (Continuous Integration)**: Testes e validações automáticas ao salvar mudanças no código.
 - **CD (Continuous Delivery/Deployment)**: Deploy automatizado da aplicação no ambiente correto.
 
-#### MLOps (aplicado à IA):
+**MLOps (aplicado à IA):**
 
 - **Pré-processamento automático** de dados.
 - **Re-treinamento do modelo** com novos dados (por agendamento ou evento).
@@ -617,7 +605,7 @@ Assim como softwares modernos usam **CI/CD** para entrega contínua, **modelos d
 - **Monitoramento contínuo do modelo em produção** (ex: detectar drift ou perda de performance).
 
 
-### 8.3 🛠️ Ferramentas para CI/CD e MLOps
+#### (8.3) 🛠️ Ferramentas para CI/CD e MLOps
 
 **GitHub Actions**
 
@@ -647,16 +635,13 @@ Plataforma completa de DevOps com:
   - Deploy em produção
 - Permite reuso de etapas, escalonamento automático e agendamento.
 
-### ✍️ Atividade
+#### (8.4) ✍️ Atividade
 
 Imagine que sua equipe vai colocar em produção um modelo que detecta fraude em cartões de crédito.
 
 - Quais seriam os papéis envolvidos no time?
 - Como seria o pipeline de CI/CD para esse modelo?
 - Que ferramentas do Azure você usaria para integrar, treinar e publicar o modelo?
-
-
-
 
 
 ### Tabela Comparativa com Azure
