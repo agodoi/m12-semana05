@@ -17,9 +17,9 @@ Como explorar o Cloud Adoption Framework da Microsoft com foco na aplicação de
 - Desenvolver uma proposta de arquitetura integrada CAF + IA.
 
 
-## 📅 Estrutura da Aula (4h)
+## 📅 Estrutura da Aula
 
-### 🔹 Bloco 1 – Fundamentos e Estratégia (0h00 – 1h00)
+### 🔹 Bloco 1 – Fundamentos e Estratégia
 
 ### (1) Introdução Geral (10 min)
 
@@ -86,7 +86,7 @@ O/A engenheiro(a) de software desempenha um papel crucial na jornada de adoção
 - Colaboração interdisciplinar: trabalhar em conjunto com equipes de operações, segurança, dados e negócios para alinhar as soluções tecnológicas com os objetivos organizacionais.
 
 
-### 2. Fase de Estratégia (25 min)
+### 2. Fase de Estratégia
 
 Essa fase **define os porquês** da adoção da nuvem: quais são os objetivos do negócio, o que se espera alcançar e como a tecnologia pode ser um facilitador dessa mudança. Essa etapa é essencial para garantir que a adoção da nuvem esteja alinhada com os objetivos estratégicos da organização.
 
@@ -145,22 +145,75 @@ Formem grupos de 4 pessoas e assumam o papel de consultores de uma empresa e pre
 - Propor uma jornada inicial (migração ou inovação).
 - Apresentar um mini-plano estratégico.
 
+#### (3) Fase de Planejamento
 
+A fase de planejamento é responsável por transformar a estratégia de adoção da nuvem em um plano prático. Esse plano deve estar alinhado com os objetivos da organização, levar em conta os ativos digitais existentes e preparar as equipes para executar a migração e a inovação de forma segura e eficiente.
 
+**📦 (3.1) Levantamento de ativos e dados com potencial de IA**
 
+Nesta etapa, os grupos de trabalho precisam mapear todos os ativos digitais da organização (aplicações, bancos de dados, servidores, APIs, arquivos, fluxos de dados, etc.), classificando-os quanto ao seu valor, criticidade e potencial de modernização ou uso em soluções de IA.
 
+**Categorias de ativos:**
 
+- Sistemas legados: aplicações on-premise que poderiam ser migradas ou reconstruídas na nuvem.
+- Dados operacionais: logs, registros de vendas, cadastros, sensores – que podem ser usados para IA preditiva.
+- APIs e microserviços: interfaces reutilizáveis que facilitam a integração com modelos de IA.
+- Documentação: manuais, registros e contratos que podem ser processados por IA (ex: NLP).
 
-#### 3. Fase de Planejamento (25 min)
+💡 Dica: pensem em quais dados da empresa são subutilizados hoje e poderiam gerar valor se tratados com IA (ex: históricos de chamados, churn de clientes, etc.).
 - Levantamento de ativos e dados com potencial de IA.
 - Planejamento da migração de sistemas legados.
 - Análise de lacunas de habilidades e alinhamento de times.
 
+**🔄 (3.2) Planejamento da migração de sistemas legados**
+
+Depois de levantar os ativos, o próximo passo é definir quais sistemas serão migrados para a nuvem e como isso será feito. Essa decisão depende de fatores como custo, complexidade, impacto no negócio e alinhamento com os objetivos estratégicos.
+
+**Estratégias de migração (do CAF):**
+
+- Rehost (lift-and-shift): migrar para a nuvem sem alterar o código.
+- Refactor: pequenas mudanças no código para aproveitar recursos da nuvem.
+- Rearchitect: reescrever partes da aplicação para ganhar escalabilidade, modularidade, etc.
+- Rebuild: reconstrução total da aplicação.
+- Replace: substituição por SaaS.
+
+
+
+**👥 (3.3) Análise de lacunas de habilidades e alinhamento de times**
+
+Mesmo o melhor plano técnico pode falhar se as pessoas envolvidas não estiverem preparadas ou alinhadas com os objetivos da nuvem. 
+
+O CAF recomenda uma análise detalhada das habilidades técnicas, comportamentais e organizacionais necessárias para o sucesso da adoção.
+
+**Passos para identificar lacunas:**
+
+- Mapear os perfis das equipes atuais (Dev, Ops, Data, Segurança, Produto).
+- Avaliar conhecimentos em nuvem, CI/CD, arquitetura escalável, ferramentas de IA.
+- Identificar funções ausentes: arquiteto de nuvem, engenheiro de dados, especialista em ML, etc.
+- Propor capacitação, workshops ou contratação de especialistas.
+
+**Alinhamento de times:**
+
+- Definir responsabilidades claras usando RACI (Responsible, Accountable, Consulted, Informed).
+- Criar rotinas de comunicação (dailies, reviews, sync de arquitetura).
+- Formar núcleos de referência (ex: Cloud Center of Excellence).
+- 👩‍💻 Engenheiros de software devem assumir o papel de integradores técnicos entre desenvolvimento e soluções de IA na nuvem.
+
+
+**Etapas práticas do planejamento:**
+
+- Priorização de sistemas para migração.
+- Definição de cronograma e recursos envolvidos.
+- Avaliação de dependências técnicas e riscos.
+- 📌 Integração com IA: identificar quais sistemas legados poderão ser integrados com APIs de IA, como chatbots, análise preditiva, visão computacional, etc.
+
+### Kahoot
+
 ---
 
-### 🔹 Bloco 2 – Preparação, Adoção e Arquitetura (1h00 – 2h00)
+### 🔹 Bloco 2 – Preparação, Adoção e Arquitetura
 
-#### 4. Fase Pronto (Ready) (30 min)
+#### 4. Fase Pronto (Ready)
 - Zonas de Destino (Landing Zones) para projetos de IA.
 - Design de rede, identidade, segurança e compliance.
 - Terraform e IaC para provisionamento de ambientes.
