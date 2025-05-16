@@ -325,16 +325,106 @@ Imagine que sua equipe precisa preparar o ambiente para um projeto de IA que far
 
 
 
-#### 5. Fase Adoção (Adopt) (30 min)
-- Estratégias de migração: Rehost, Refactor, Rearchitect, Rebuild, Replace.
-- Migração e deploy de modelos de IA.
-- Ferramentas: Azure Migrate, Azure ML, Cognitive Services.
+### 5. Fase Adoção (Adopt)
 
-#### 🧠 Atividade: 
-- Cenário prático com sistema de atendimento com IA.  
-- Definir zona de destino e estratégia de adoção.
+A fase de adoção representa o momento de ação: a empresa sai do planejamento e começa efetivamente a migrar sistemas legados e implementar novas soluções na nuvem, incluindo modelos de IA. Ela exige decisões técnicas importantes que equilibram tempo, custo, risco e inovação.
 
----
+#### 5.1 🔁 Estratégias de Migração
+
+A Microsoft define cinco estratégias principais (modelo conhecido como os "5 Rs") para modernizar sistemas existentes e movê-los para a nuvem.
+
+**🧱 Rehost ("Lift and Shift")**
+
+- O que é: Migrar um sistema para a nuvem sem alterar o código.
+- Exemplo: Mover uma VM do servidor local para uma VM no Azure.
+- Quando usar: Rápida migração com baixo risco técnico.
+- Limitação: Não aproveita recursos nativos da nuvem (escalabilidade, automação).
+
+**🧰 Refactor**
+
+- O que é: Pequenas modificações no código para melhor aproveitamento da nuvem.
+- Exemplo: Alterar conexões de banco de dados para usar Azure SQL.
+- Quando usar: Quando é possível melhorar performance ou integração com poucos ajustes.
+
+**🧱🧱 Rearchitect**
+
+- O que é: Redesenhar a arquitetura para ser mais modular e escalável.
+- Exemplo: Transformar um monólito em microsserviços com APIs.
+- Quando usar: Quando há problemas de escalabilidade ou manutenibilidade.
+
+**🏗️ Rebuild**
+
+- O que é: Reescrever totalmente a aplicação do zero, usando tecnologias cloud-native.
+- Exemplo: Criar uma nova aplicação usando Azure Functions + CosmosDB.
+- Quando usar: Sistemas antigos ou ineficientes que não valem ser adaptados.
+
+**🛒 Replace**
+
+- O que é: Substituir o sistema por um SaaS (software pronto).
+- Exemplo: Abandonar um ERP interno e adotar o Dynamics 365.
+- Quando usar: Quando existe no mercado uma solução confiável e mais barata.
+
+
+#### 5.2 🧠 Migração e Deploy de Modelos de IA
+
+Além dos sistemas tradicionais, muitas empresas agora também precisam implantar modelos de IA em produção, o que exige decisões técnicas semelhantes:
+
+**Ações típicas:**
+
+- Migrar notebooks e pipelines de ciência de dados locais para a nuvem.
+- Armazenar datasets em serviços como Azure Data Lake ou Blob Storage.
+- Implantar modelos de IA como serviços de inferência escaláveis (ex: endpoints REST). Um endpoint REST é uma URL acessível na internet ou rede interna, onde um sistema pode enviar ou receber dados estruturados (geralmente em JSON), sem precisar de interface gráfica.
+- Integrar esses modelos a aplicações web, mobile, APIs ou sistemas internos.
+
+**Considerações:**
+
+- Custo: inferência contínua consome recursos (usar escalonamento automático).
+- Segurança: garantir que dados sensíveis estejam protegidos.
+- Desempenho: considerar aceleração com GPU, caching e balanceamento de carga.
+- 💡 Dica: IA na nuvem não é só treinar modelos, é também garantir que eles rodem bem e com confiabilidade.
+
+#### 5.3 🛠️ Ferramentas para Adoção e IA
+
+**🚀 Azure Migrate**
+
+- Centraliza a descoberta, avaliação e migração de servidores, VMs, bancos de dados e aplicações.
+- Permite simular migração antes de executar.
+- Integra com Hyper-V, VMware, servidores físicos.
+
+**🤖 Azure Machine Learning**
+
+- Plataforma completa para treinar, validar e publicar modelos de IA.
+- Suporta Python, Jupyter, AutoML, MLflow, entre outros.
+- Permite criar endpoints REST para consumir o modelo em produção.
+- Pode ser integrado com DevOps para pipelines automatizados (MLOps).
+
+**🧠 Azure Cognitive Services**
+
+- APIs prontas de IA para visão computacional, linguagem natural, voz e tomada de decisão.
+- Ideal para soluções rápidas e confiáveis sem precisar treinar modelos.
+- Exemplo: serviço de análise de sentimentos, OCR, reconhecimento facial, tradução.
+
+#### ✍️ Atividade em Grupo
+
+**Desafio prático:** um hospital quer modernizar dois sistemas:
+
+- Um sistema legado de agendamento médico em Delphi.
+- Um modelo de IA que detecta pneumonia em radiografias, rodando em um PC local.
+
+**O que o grupo recomenda para:**
+
+- A estratégia de migração de cada um?
+- A ferramenta ideal para apoiar cada caso?
+- Como garantir segurança, escalabilidade e monitoramento?
+
+
+
+
+
+
+
+
+
 
 ### 🔹 Bloco 3 – Governança, Operações e Segurança (2h00 – 3h00)
 
