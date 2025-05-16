@@ -217,10 +217,101 @@ O CAF recomenda uma análise detalhada das habilidades técnicas, comportamentai
 
 ### 🔹 Bloco 2 – Preparação, Adoção e Arquitetura
 
-#### 4. Fase Pronto (Ready)
-- Zonas de Destino (Landing Zones) para projetos de IA.
-- Design de rede, identidade, segurança e compliance.
-- Terraform e IaC para provisionamento de ambientes.
+### 4. Fase Pronto (Ready)
+
+Nesta fase, o objetivo é preparar o ambiente de nuvem com padrões técnicos sólidos. Isso inclui infraestrutura, rede, identidade, governança e segurança — os chamados pilares de uma Zona de Destino (Landing Zone).
+
+É aqui que a adoção da nuvem ganha corpo técnico e garante que qualquer solução (inclusive IA) possa rodar de forma segura, escalável e conforme as políticas da organização.
+
+
+
+#### 🧱 (4.1) Zonas de Destino (Landing Zones) para projetos de IA
+
+Landing Zones são ambientes pré-configurados que servem como base para receber cargas de trabalho em nuvem. Elas já vêm com boas práticas de arquitetura, rede, identidade, governança e segurança aplicadas.
+
+**No contexto de IA, uma Landing Zone deve estar pronta para:**
+
+- Executar cargas computacionais pesadas, como treinamento de modelos.
+- Garantir controle de acesso aos dados, especialmente dados sensíveis.
+- Permitir escalabilidade automática para pipelines de inferência.
+- Integrar ferramentas de machine learning e serviços cognitivos (ex: Azure ML, OpenAI, Data Lake, etc.)
+
+**Componentes típicos de uma Landing Zone:**
+
+- Subscrições organizadas (por ambiente, projeto ou unidade de negócio).
+- Identidade integrada ao Azure AD com RBAC (controle baseado em função).
+- VNet com sub-redes e NSGs (regras de tráfego).
+- Logs e monitoramento já habilitados.
+- Políticas de conformidade ativadas (Azure Policy, tags obrigatórias, etc.).
+- 💡 Dica: uma Landing Zone é como o alicerce de uma casa — se mal feita, a solução desaba.
+
+#### (4.2) Design de rede, identidade, segurança e compliance
+
+Essa subetapa define as bases técnicas do ambiente de nuvem, garantindo segurança, rastreabilidade e conectividade desde o início do projeto.
+
+**Rede (Network):**
+
+- Criação de Subredes para isolar ambientes (ex: produção, testes).
+- NSGs (Network Security Groups) para controlar entrada e saída de dados.
+- Integração com VPN ou ExpressRoute (caso haja conexão com data center local).
+- Azure Firewall ou Application Gateway para proteger aplicações expostas.
+
+**Identidade:**
+
+- Integração com Azure Active Directory (AAD).
+- Aplicação de RBAC (Role-Based Access Control) para limitar acessos.
+- Uso de Managed Identities para que serviços se autentiquem sem armazenar senhas.
+
+**Segurança:**
+
+- Ativação do Microsoft Defender for Cloud para detectar vulnerabilidades.
+- Criação de alertas e dashboards com Azure Monitor e Log Analytics.
+- Segmentação de recursos com grupos de recursos bem definidos.
+
+**Compliance:**
+
+- Aplicação de políticas via Azure Policy.
+- Conformidade com LGPD, ISO 27001 (que estabele Sistema de Gestão de Segurança da Informação - SGSI), SOC2 ((System and Organization Controls 2, que são controles de segurança e conformidade), entre outras.
+- Definição de naming conventions e tags obrigatórias para rastreabilidade. Exemplo: **rg-visao-prod-brfabrica01**. Explicação:
+-   rg → Tipo: Resource Group
+-   visao → Projeto: Visão Computacional
+-   prod → Ambiente: Produção
+-   rfabrica01 → Localização física ou unidade da empresa no Brasil
+
+
+📌 Importante: uma boa estrutura inicial evita retrabalho e falhas de segurança graves.
+
+⚙️ 4.3 Terraform e IaC para provisionamento de ambientes
+Infrastructure as Code (IaC) é uma prática que permite definir, versionar e implantar infraestrutura de forma automatizada e repetível, como se fosse código-fonte.
+
+Benefícios do IaC:
+Evita erros manuais em configurações.
+
+Permite versionar e revisar ambientes como código (ex: Git).
+
+Facilita o escalonamento e duplicação de ambientes com consistência.
+
+Integra-se a pipelines DevOps/MLOps (ex: GitHub Actions, Azure DevOps).
+
+Terraform:
+Ferramenta multicloud e declarativa para IaC.
+
+Com scripts .tf, você define redes, storage, VMs, Azure ML Workspaces, etc.
+
+Utilizado no CAF para criar Zonas de Destino automatizadas.
+
+Possui módulos oficiais prontos da Microsoft para CAF.
+
+
+
+
+
+
+
+
+
+
+
 
 #### 5. Fase Adoção (Adopt) (30 min)
 - Estratégias de migração: Rehost, Refactor, Rearchitect, Rebuild, Replace.
