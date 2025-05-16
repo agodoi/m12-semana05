@@ -490,14 +490,6 @@ Cenário: Seu grupo criou um modelo de IA que analisa prontuários médicos e su
 
 
 
-7. Gerenciamento e Segurança (20 min)
-
-
-
-Perfeito! Vamos desenvolver o conteúdo didático do **Tópico 7: Gerenciamento e Segurança** na Fase de Adoção do Cloud Adoption Framework (CAF), focando na **operação de modelos de IA na nuvem**, com destaque para **observabilidade, escalabilidade e proteção de dados sensíveis**. O conteúdo é pensado para estudantes de Engenharia de Software que estão aprendendo a trabalhar com IA em ambientes cloud.
-
----
-
 ## 7. Gerenciamento e Segurança (20 min)
 
 Depois que um sistema — ou modelo de IA — entra em produção na nuvem, ele precisa ser **monitorado, protegido e mantido**. Gerenciamento eficaz significa **garantir que a solução funcione bem, de forma segura, estável e conforme as normas legais**.
@@ -587,45 +579,85 @@ Cenário: seu grupo implantou um modelo de IA que detecta fraudes em transaçõe
 - Que ferramentas do Azure vocês usariam para garantir segurança e conformidade?
 
 
+## 8. Organização e MLOps
+
+Desenvolver modelos de IA é apenas o começo. Para que uma solução seja efetivamente usada no mundo real, ela precisa ser mantida, monitorada, atualizada e entregue com agilidade. Para isso, usamos práticas de **MLOps (Machine Learning Operations)** — a união de **Machine Learning + DevOps** — em uma estrutura organizacional colaborativa.
+
+
+### 8.1 🧑‍🤝‍🧑 Estrutura de times integrando software, dados e DevOps
+
+Projetos modernos de IA na nuvem exigem uma equipe multidisciplinar e bem organizada. Um modelo de IA precisa de:
+
+#### 🧱 Papéis principais:
+
+- **Engenheiro de Software**: desenvolve a aplicação que consumirá o modelo de IA.
+- **Cientista de Dados**: coleta, limpa e modela os dados; treina e valida o modelo.
+- **Engenheiro de Dados**: constrói pipelines de dados escaláveis e consistentes.
+- **Engenheiro de MLOps/DevOps**: automatiza os testes, versionamento e deploy do modelo.
+- **Arquiteto de Soluções**: desenha a arquitetura cloud-native do projeto.
+- **Analista de Negócios / PO**: alinha as funcionalidades com os objetivos estratégicos.
+- **Exemplo real:** um projeto de IA para prever falhas em motores de tratores, o cientista de dados treina o modelo, o engenheiro de dados coleta os dados dos sensores, e o engenheiro de software expõe a API para o app da manutenção. O DevOps automatiza tudo.
+- 💡 Dica: a colaboração entre as áreas é tão importante quanto a técnica. MLOps só funciona se os times conversam e compartilham responsabilidade.
+
+### 8.2 🔄 Integração de pipelines CI/CD e MLOps
+
+Assim como softwares modernos usam **CI/CD** para entrega contínua, **modelos de IA também precisam de automação** em todo seu ciclo de vida:
+
+#### CI/CD tradicional (DevOps):
+
+- **CI (Continuous Integration)**: Testes e validações automáticas ao salvar mudanças no código.
+- **CD (Continuous Delivery/Deployment)**: Deploy automatizado da aplicação no ambiente correto.
+
+#### MLOps (aplicado à IA):
+
+- **Pré-processamento automático** de dados.
+- **Re-treinamento do modelo** com novos dados (por agendamento ou evento).
+- **Validação automática do modelo** (ex: testes de precisão mínima).
+- **Deploy automatizado do modelo** (como endpoint REST).
+- **Monitoramento contínuo do modelo em produção** (ex: detectar drift ou perda de performance).
+
+
+### 8.3 🛠️ Ferramentas para CI/CD e MLOps
+
+**GitHub Actions**
+
+- Ferramenta de automação de fluxos de trabalho dentro do GitHub.
+- Cria pipelines CI/CD para testes, build, deploy de apps e modelos.
+- Ideal para times que já versionam projetos em GitHub.
+- Permite agendar treinos, deploys e validações de modelo com `.yml`.
+
+**Azure DevOps**
+
+Plataforma completa de DevOps com:
+
+- Repositórios Git
+- Pipelines CI/CD
+- Boards (Kanban)
+- Test Plans
+- Integra-se com o Azure ML para pipelines de re-treinamento e deploy contínuo.
+
+**Azure ML Pipelines**
+
+- Permite **orquestrar todo o ciclo de vida de um modelo de IA**.
+- Suporte para passos como:
+  - Ingestão de dados
+  - Limpeza
+  - Treinamento
+  - Validação
+  - Deploy em produção
+- Permite reuso de etapas, escalonamento automático e agendamento.
+
+### ✍️ Atividade
+
+Imagine que sua equipe vai colocar em produção um modelo que detecta fraude em cartões de crédito.
+
+- Quais seriam os papéis envolvidos no time?
+- Como seria o pipeline de CI/CD para esse modelo?
+- Que ferramentas do Azure você usaria para integrar, treinar e publicar o modelo?
 
 
 
 
-
-
-
-#### 7. Gerenciamento e Segurança (20 min)
-- Monitoramento de modelos em produção.
-- Logs, alertas e escalabilidade de inferência.
-- Proteção de dados sensíveis (LGPD, PII).
-- Ferramentas: Azure Monitor, Defender for Cloud, Sentinel.
-
-#### 8. Organização e MLOps (20 min)
-- Estrutura de times integrando software, dados e DevOps.
-- Integração de pipelines CI/CD e MLOps.
-- Ferramentas: GitHub Actions, Azure DevOps, Azure ML Pipelines.
-
----
-
-### 🔹 Bloco 4 – Prática com IA na Nuvem (3h00 – 4h00)
-
-#### 9. Fundamentos da IA na Nuvem (20 min)
-- Serviços de IA: prontos (Cognitive), customizados (Azure ML), open-source (OpenAI).
-- Diferença entre IaaS, PaaS e SaaS para IA.
-
-#### 10. Demonstração Técnica (20 min)
-- API de detecção de sentimento com Azure Cognitive Services.
-- Deploy de modelo preditivo com Azure ML Studio.
-
-#### 11. Atividade em Grupo (15 min)
-- Criar uma proposta CAF + IA para um cenário fictício.
-- Definir: motivador, plano de adoção, arquitetura, governança e segurança.
-
-#### 12. Encerramento e Discussão (5 min)
-- Apresentações relâmpago dos grupos.
-- Reflexão final: impactos reais da IA na nuvem.
-
----
 
 ### Tabela Comparativa com Azure
 
@@ -653,17 +685,3 @@ A ideia dos blocos/tópicos foi pedagógica, ou seja, adaptar a jornada CAF para
 - [Azure Cognitive Services](https://azure.microsoft.com/pt-br/products/cognitive-services/)
 - [Azure Monitor](https://learn.microsoft.com/pt-br/azure/azure-monitor/overview)
 - [Azure Policy](https://learn.microsoft.com/pt-br/azure/governance/policy/overview)
-
----
-
-## 📌 Tarefas Pós-Aula (sugestão)
-
-- Criar um diagrama de arquitetura baseado em um cenário real usando o CAF.
-- Explorar e testar uma API de IA no Azure.
-- Realizar um mini planejamento CAF com foco em IA, usando o template oficial.
-
----
-
-## 📎 Créditos
-
-Elaborado por [Seu Nome] • Curso de Engenharia de Software  
