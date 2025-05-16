@@ -418,6 +418,173 @@ Além dos sistemas tradicionais, muitas empresas agora também precisam implanta
 - Como garantir segurança, escalabilidade e monitoramento?
 
 
+### 🔹 Bloco 3 – Governança com IA
+
+A governança no contexto da nuvem e da IA significa definir regras, limites e responsabilidades para garantir que as soluções desenvolvidas sejam seguras, éticas, controladas e estejam em conformidade com leis e políticas corporativas. Essa etapa é vital para proteger tanto os dados quanto a reputação da empresa.
+
+#### 6.1 🧭 Políticas de uso responsável de IA
+
+À medida que soluções de IA ganham poder, cresce a responsabilidade sobre seu uso. Governança com IA exige que os modelos sejam:
+
+- Justos: sem viés contra grupos ou indivíduos.
+- Explicáveis: o modelo deve permitir interpretação do seu funcionamento.
+- Seguros: devem evitar decisões que possam causar dano.
+- Privados: respeitando a privacidade e consentimento dos usuários.
+- Auditáveis: devem gerar logs e evidências do que foi feito.
+**- Exemplo real:** uma empresa de RH utiliza IA para analisar currículos. Sem uma política clara, o modelo começa a rejeitar perfis de forma enviesada.
+Governança responsável define critérios transparentes e evita riscos reputacionais e jurídicos.
+
+
+
+#### 6.2💰 Monitoramento de custos e compliance
+
+Governança também é sobre controlar o uso da nuvem, evitando desperdícios e garantindo que tudo esteja em conformidade com normas como LGPD, ISO 27001 ou SOC 2.
+
+**Práticas recomendadas:**
+
+- Tagueamento de recursos: aplicar tags como projeto:visao, ambiente:prod, responsável:engenharia.
+- Alertas de orçamento: configurar limites de uso por time ou subscrição.
+- Políticas de localização de dados: garantir que dados pessoais não saiam do país (ex: LGPD exige armazenamento no Brasil ou países com nível adequado de proteção).
+- **Exemplo real:** um time de ciência de dados treinou um modelo em GPU por dias, esquecendo de desligar a instância. A conta passou de R$ 10 mil.
+Com governança (budget + alerts + políticas de desligamento), isso seria evitado.
+
+#### 6.3 🛠️ Ferramentas de Governança no Azure
+
+**✅ Azure Policy**
+
+Permite criar regras automáticas que impedem ou forçam certas configurações.
+
+**Exemplo:**
+
+- "Não permitir criação de máquinas fora do Brasil."
+- "Obrigar uso de tags em todos os recursos criados."
+- "Negar instâncias GPU fora do horário comercial."
+
+**📘 Azure Blueprints**
+
+Permite empacotar um conjunto de políticas, RBAC, templates e scripts ARM para aplicar como padrão em múltiplas subscrições. Ideal para padronizar ambientes em times ou filiais diferentes.
+
+**🧠 Responsible AI Dashboard (Azure ML)**
+
+Ferramenta para auditar modelos de IA com foco em:
+
+- Viés (bias)
+- Equidade (fairness)
+- Explicabilidade (explainability)
+- Performance segmentada por grupo
+
+**Outras ferramentas complementares:**
+
+- Cost Management + Billing (controle financeiro)
+- Log Analytics + Monitor (para rastreamento e auditoria)
+- Microsoft Purview (governança de dados)
+
+#### Atividade Prática:
+
+Cenário: Seu grupo criou um modelo de IA que analisa prontuários médicos e sugere diagnósticos.
+
+- Como aplicar governança nesse projeto?
+- Que regras ou políticas devem existir?
+- Como garantir que o modelo não seja injusto?
+- Como evitar custos inesperados?
+
+
+
+7. Gerenciamento e Segurança (20 min)
+
+
+
+Perfeito! Vamos desenvolver o conteúdo didático do **Tópico 7: Gerenciamento e Segurança** na Fase de Adoção do Cloud Adoption Framework (CAF), focando na **operação de modelos de IA na nuvem**, com destaque para **observabilidade, escalabilidade e proteção de dados sensíveis**. O conteúdo é pensado para estudantes de Engenharia de Software que estão aprendendo a trabalhar com IA em ambientes cloud.
+
+---
+
+## 7. Gerenciamento e Segurança (20 min)
+
+Depois que um sistema — ou modelo de IA — entra em produção na nuvem, ele precisa ser **monitorado, protegido e mantido**. Gerenciamento eficaz significa **garantir que a solução funcione bem, de forma segura, estável e conforme as normas legais**.
+
+
+### 7.1 📊 Monitoramento de modelos em produção
+
+Colocar um modelo de IA em produção **não é o fim do processo**, e sim o início da fase operacional. O modelo precisa ser monitorado por questões de **desempenho, acurácia, disponibilidade e custo**.
+
+#### O que deve ser monitorado:
+
+- **Latência de inferência** (tempo para gerar uma resposta).
+- **Taxa de erro** (ex: 503, 500).
+- **Drift de dados** (mudanças nos dados que afetam a precisão do modelo).
+- **Uso do recurso computacional** (CPU/GPU, memória).
+- **Acurácia real no mundo real** (comparar previsão vs. resultado verdadeiro).
+
+#### Exemplo real:
+
+- Um modelo de IA para prever inadimplência está em produção. Com o tempo, a economia muda e os dados se tornam menos representativos.
+- Resultado: o modelo começa a errar. Sem monitoramento, isso só seria descoberto tarde demais.
+
+---
+
+### 7.2 🚨 Logs, alertas e escalabilidade de inferência
+
+#### Logs e alertas:
+
+- **Logs** capturam tudo o que aconteceu: entradas, saídas, exceções, tempos de resposta.
+- **Alertas** são acionados quando um evento fora do padrão ocorre (ex: alta latência, falha no endpoint).
+
+#### Escalabilidade de inferência:
+
+- Em horários de pico, seu modelo precisa **suportar múltiplas requisições simultâneas**.
+- A escalabilidade pode ser:
+  - Manual (alocar recursos fixos com folga).
+  - Automática (auto-scale): Azure aumenta e reduz instâncias conforme a demanda.
+- **Exemplo:** Um app de e-commerce usa IA para recomendação em tempo real. Durante a Black Friday, o volume triplica. Com autoescalonamento e alertas bem configurados, o sistema continua rápido e estável.
+
+### 7.3 🔒 Proteção de dados sensíveis (LGPD, PII)
+
+Modelos de IA muitas vezes processam dados pessoais (PII – Personally Identifiable Information), como nomes, CPF, e-mails, imagens, voz e histórico médico. A proteção desses dados é **obrigatória por lei**.
+
+#### Regras da LGPD aplicadas:
+
+- Consentimento claro para uso dos dados.
+- Minimização: usar apenas os dados estritamente necessários.
+- Anonimização/pseudonimização quando possível.
+- Direito à exclusão dos dados pelo titular.
+- Segurança de armazenamento e acesso.
+
+#### Boas práticas:
+
+- Criptografia de dados em trânsito e em repouso.
+- Uso de **Managed Identities** para acesso seguro entre serviços.
+- Armazenar logs sem incluir PII visível.
+- ⚠️ **Exemplo crítico:** um chatbot com IA armazena logs de conversas contendo dados médicos. Sem anonimização e controle de acesso, isso viola a LGPD.
+
+
+### 7.4 🛠️ Ferramentas do Azure
+
+#### 7.4.1 Azure Monitor
+
+**Plataforma central de monitoramento** no Azure:
+- Permite visualizar logs, criar métricas personalizadas e configurar alertas.
+- Integra com aplicações e serviços como Azure ML, App Services, Functions.
+
+#### 7.4.2 Microsoft Defender for Cloud
+
+- Detecta **ameaças, vulnerabilidades e práticas inseguras**.
+- Avalia conformidade com normas como **ISO 27001, SOC 2, LGPD**.
+- Gera recomendações automáticas de segurança para seus recursos.
+
+#### 7.4.3 Microsoft Sentinel
+
+* SIEM (Security Information and Event Management) na nuvem.
+* Agrega logs de diversas fontes (inclusive endpoints de IA).
+* Aplica **inteligência artificial para detectar comportamentos anômalos**, como acessos suspeitos, exfiltração de dados, etc.
+
+
+## ✍️ Atividade
+
+Cenário: seu grupo implantou um modelo de IA que detecta fraudes em transações financeiras.
+- O que deve ser monitorado nesse modelo?
+- Quais dados precisam de maior proteção?
+- Que alertas vocês criariam?
+- Que ferramentas do Azure vocês usariam para garantir segurança e conformidade?
 
 
 
@@ -426,12 +593,6 @@ Além dos sistemas tradicionais, muitas empresas agora também precisam implanta
 
 
 
-### 🔹 Bloco 3 – Governança, Operações e Segurança (2h00 – 3h00)
-
-#### 6. Governança com IA (20 min)
-- Políticas de uso responsável de IA.
-- Monitoramento de custos e compliance.
-- Ferramentas: Azure Policy, Blueprints, Responsible AI.
 
 #### 7. Gerenciamento e Segurança (20 min)
 - Monitoramento de modelos em produção.
