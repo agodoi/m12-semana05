@@ -19,6 +19,35 @@ Como explorar o Cloud Adoption Framework da Microsoft com foco na aplicação de
 
 ## 📅 Estrutura da Aula
 
+#### Bloco 1 – Contexto e Estratégia
+
+1. Introdução ao Cloud Adoption Framework
+
+2. Fase de Estratégia
+
+3. Fase de Planejamento
+
+**(Kahoot)**
+
+#### Bloco 2 – Preparação e Adoção
+
+4. Fase Pronto (Ready)
+
+5. Fase Adoção (Adopt)
+
+**(Kahoot)**
+   
+#### Bloco 3 – Governança, Gerenciamento e Segurança
+
+6. Fase de Governança (20 min)
+
+7. Fase de Gerenciamento e Segurança
+
+8. Orgaganização e Mlops
+
+**(Kahoot)**
+
+
 ### Bloco 1 – Fundamentos e Estratégia
 
 ### 1. Introdução Geral (10 min)
