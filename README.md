@@ -277,31 +277,43 @@ Essa subetapa define as bases técnicas do ambiente de nuvem, garantindo seguran
   - visao → Projeto: Visão Computacional
   - prod → Ambiente: Produção
   - rfabrica01 → Localização física ou unidade da empresa no Brasil
+- Importante: uma boa estrutura inicial evita retrabalho e falhas de segurança graves.
 
+#### (4.3) Terraform e IaC para provisionamento de ambientes
 
-📌 Importante: uma boa estrutura inicial evita retrabalho e falhas de segurança graves.
-
-⚙️ 4.3 Terraform e IaC para provisionamento de ambientes
 Infrastructure as Code (IaC) é uma prática que permite definir, versionar e implantar infraestrutura de forma automatizada e repetível, como se fosse código-fonte.
 
-Benefícios do IaC:
-Evita erros manuais em configurações.
+**Benefícios do IaC:**
 
-Permite versionar e revisar ambientes como código (ex: Git).
+- Evita erros manuais em configurações.
+- Permite versionar e revisar ambientes como código (ex: Git).
+- Facilita o escalonamento e duplicação de ambientes com consistência.
+- Integra-se a pipelines DevOps/MLOps (ex: GitHub Actions, Azure DevOps).
 
-Facilita o escalonamento e duplicação de ambientes com consistência.
+**Terraform:**
 
-Integra-se a pipelines DevOps/MLOps (ex: GitHub Actions, Azure DevOps).
+- Ferramenta multicloud e declarativa para IaC.
+- Com scripts ```.tf```, você define redes, storage, VMs, Azure ML Workspaces, etc.
+- Utilizado no CAF para criar **Zonas de Destino automatizadas**.
+- Possui módulos oficiais prontos da Microsoft para CAF.
 
-Terraform:
-Ferramenta multicloud e declarativa para IaC.
+```
+# Exemplo simples de criação de grupo de recursos no Azure
+resource "azurerm_resource_group" "rg" {
+  name     = "rg-ml-dev"
+  location = "East US"
+}
+```
 
-Com scripts .tf, você define redes, storage, VMs, Azure ML Workspaces, etc.
+#### (4.4) ✍️ Atividade prática - Desafio de arquitetura:
 
-Utilizado no CAF para criar Zonas de Destino automatizadas.
+Imagine que sua equipe precisa preparar o ambiente para um projeto de IA que fará reconhecimento de imagens em uma fábrica.
 
-Possui módulos oficiais prontos da Microsoft para CAF.
+**Defina:**
 
+- Quais componentes são essenciais na Landing Zone.
+- Que regras de rede e segurança seriam exigidas.
+- Que ferramentas usariam para provisionar isso (ex: Terraform, Bicep).
 
 
 
