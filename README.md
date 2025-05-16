@@ -21,7 +21,7 @@ Como explorar o Cloud Adoption Framework da Microsoft com foco na aplicação de
 
 ### 🔹 Bloco 1 – Fundamentos e Estratégia
 
-### (1) Introdução Geral (10 min)
+### 1 Introdução Geral (10 min)
 
 #### (1.1) O que é o Cloud Adoption Framework (CAF)
 
@@ -125,7 +125,7 @@ A Microsoft define dois percursos distintos dentro da estratégia de adoção da
 - Desafios: Requer mais planejamento, integração e mudança cultural nas equipes.
 - 🧠 Importante: em muitos casos, as empresas começam com a migração (mais conservadora) e, ao ganharem maturidade, avançam para a inovação nativa.
 
-#### 🛠️ 2.3 Ferramenta: Cloud Adoption Strategy Evaluator]
+#### 🛠️ (2.3) Ferramenta: Cloud Adoption Strategy Evaluator]
 
 A Microsoft oferece uma ferramenta interativa para avaliar o alinhamento entre estratégia de negócios e nuvem:
 
@@ -145,11 +145,11 @@ Formem grupos de 4 pessoas e assumam o papel de consultores de uma empresa e pre
 - Propor uma jornada inicial (migração ou inovação).
 - Apresentar um mini-plano estratégico.
 
-#### (3) Fase de Planejamento
+### 3 Fase de Planejamento
 
 A fase de planejamento é responsável por transformar a estratégia de adoção da nuvem em um plano prático. Esse plano deve estar alinhado com os objetivos da organização, levar em conta os ativos digitais existentes e preparar as equipes para executar a migração e a inovação de forma segura e eficiente.
 
-**📦 (3.1) Levantamento de ativos e dados com potencial de IA**
+#### 📦 (3.1) Levantamento de ativos e dados com potencial de IA
 
 Nesta etapa, os grupos de trabalho precisam mapear todos os ativos digitais da organização (aplicações, bancos de dados, servidores, APIs, arquivos, fluxos de dados, etc.), classificando-os quanto ao seu valor, criticidade e potencial de modernização ou uso em soluções de IA.
 
@@ -165,7 +165,7 @@ Nesta etapa, os grupos de trabalho precisam mapear todos os ativos digitais da o
 - Planejamento da migração de sistemas legados.
 - Análise de lacunas de habilidades e alinhamento de times.
 
-**🔄 (3.2) Planejamento da migração de sistemas legados**
+#### 🔄 (3.2) Planejamento da migração de sistemas legados
 
 Depois de levantar os ativos, o próximo passo é definir quais sistemas serão migrados para a nuvem e como isso será feito. Essa decisão depende de fatores como custo, complexidade, impacto no negócio e alinhamento com os objetivos estratégicos.
 
@@ -179,7 +179,7 @@ Depois de levantar os ativos, o próximo passo é definir quais sistemas serão 
 
 
 
-**👥 (3.3) Análise de lacunas de habilidades e alinhamento de times**
+#### 👥 (3.3) Análise de lacunas de habilidades e alinhamento de times
 
 Mesmo o melhor plano técnico pode falhar se as pessoas envolvidas não estiverem preparadas ou alinhadas com os objetivos da nuvem. 
 
@@ -206,6 +206,10 @@ O CAF recomenda uma análise detalhada das habilidades técnicas, comportamentai
 - Definição de cronograma e recursos envolvidos.
 - Avaliação de dependências técnicas e riscos.
 - 📌 Integração com IA: identificar quais sistemas legados poderão ser integrados com APIs de IA, como chatbots, análise preditiva, visão computacional, etc.
+
+#### (3.4) PRÁTICA
+
+[TEMPLATE](https://github.com/agodoi/m12-semana05/blob/main/docs/Mini_Workshop_Planejamento_CAF_IA.docx)
 
 ### Kahoot
 
